@@ -31,7 +31,9 @@ public class Condicionales {
         else 
         {
         //si  no  se cumple la  condicion s e ejecuta esto
-            
+          JOptionPane.showMessageDialog(null, "Son Diferentes");  
+          if (numero1 > numero2)
+         JOptionPane.showMessageDialog(null, "Numero"+numero1+"es mayor");     
         }
         // TODO code application logic here
     }
