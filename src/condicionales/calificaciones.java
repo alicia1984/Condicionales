@@ -38,8 +38,10 @@ num2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la segunda nota"));
 num3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la tercera nota"));
 
 suma = (num1 + num2 + num3); 
-promedio = (suma/3) ; 
-if (promedio > 4) { 
+promedio = (suma/3) ;
+
+JOptionPane.showMessageDialog(null, "SU PROMEDIO  ES"+promedio);  
+if (promedio >=4) { 
 //System.out.println ("El estudiante aprovo con un promedio de: " +promedio ) ;
 JOptionPane.showMessageDialog(null, "El alumno a Aprovado"); 
  }
